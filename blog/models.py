@@ -255,6 +255,7 @@ class BlogPage(Page):
         verbose_name_plural = _('Blog pages')
 
     parent_page_types = ['blog.BlogIndexPage']
+    subpage_types = []
 
 
 BlogPage.content_panels = [
