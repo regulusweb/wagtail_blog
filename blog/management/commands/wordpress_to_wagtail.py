@@ -30,7 +30,7 @@ import requests
 
 from blog.models import (BlogPage, BlogTag, BlogPageTag, BlogIndexPage,
                          BlogCategory, BlogCategoryBlogPage)
-from wagtail.wagtailimages.models import Image
+from wagtail.images.models import Image
 
 
 class Command(BaseCommand):
