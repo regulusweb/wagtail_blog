@@ -16,14 +16,11 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
         'Intended Audience :: Developers',
         "License :: OSI Approved :: Apache Software License",
     ],
     install_requires=[
-        'wagtail>=1.12.0',
-        'requests',
-        'lxml'
+        'wagtail>=2,<2.1',
     ]
 )
